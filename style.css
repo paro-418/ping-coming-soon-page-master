@@ -106,3 +106,7 @@ section img {
   font-size: 1.1rem;
   color: hsla(0, 0%, 59%, 0.836);
 }
+
+footer{
+    margin-bottom: 5rem;
+}
