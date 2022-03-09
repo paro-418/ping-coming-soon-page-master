@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+header,
+section {
+  text-align: center;
+}
+
+.ping {
+  text-transform: uppercase;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.ping span {
+  color: hsl(223, 87%, 63%);
+}
+
+.main-header {
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 4.5rem 0rem 1.2rem 0rem;
+  color: hsl(0, 0%, 59%);
+}
+
+.main-header span {
+  font-weight: 700;
+  color: #000;
+}
+header p {
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 43%);
+}
+
+
+.search {
+  margin: 3.5rem 0 8rem 0;
+}
+
+.roundness {
+  padding: 1.3rem 0rem;
+  border-radius: 3rem;
+}
+.search input {
+  border: 1px solid hsla(0, 0%, 59%, 0.445);
+  width: 22%;
+  margin: 0 1rem;
+  padding: 1.1rem 3rem;
+}
+
+.search input::placeholder {
+  color: hsl(0, 0%, 59%);
+}
+
+.search button {
+  width: 10%;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+}
+
+.search button:hover{
+    background-color: hsla(223, 87%, 63%, 0.767);
+    cursor: pointer;
+}
+
+section img {
+  width: 33%;
+}
+
+.social {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+
+.social svg {
+  box-sizing: content-box;
+  height: 1.7rem;
+  width: 1.7rem;
+  border: 1px solid hsla(0, 0%, 59%, 0.637);
+  border-radius: 50%;
+  margin: 0.8rem;
+  padding: 0.7rem;
+}
+
+.social svg:hover{
+    background-color: #03A9F4;
+    fill: #fff;
+    cursor: pointer;
+}
+
+.copyright {
+  margin: 1rem 0 0 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: hsla(0, 0%, 59%, 0.836);
+}
