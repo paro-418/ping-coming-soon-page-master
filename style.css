@@ -43,9 +43,27 @@ header p {
   color: hsl(0, 0%, 43%);
 }
 
-
-.search {
+form {
+  /* border: 1px solid; */
+  /* display: flex;
+  flex-direction: column; */
   margin: 3.5rem 0 8rem 0;
+  text-align: left;
+}
+
+.error-msg {
+  margin: 1rem 0rem 0rem 0rem;
+  /* border: 1px solid; */
+  margin: 1rem 0 0 35%;
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.search {
+  text-align: center;
+  /* border: 1px solid; */
+  margin-bottom: 1rem;
 }
 
 .roundness {
@@ -59,18 +77,11 @@ header p {
   padding: 1.1rem 3rem;
 }
 
-.search input:focus{
+.search input:focus {
   outline: none;
 }
 .search input::placeholder {
   color: hsl(0, 0%, 59%);
-}
-
-.search #error-msg {
-  color: red;
-  font-size: 1rem;
-  font-style: italic;
-  margin-bottom: 1rem;
 }
 
 .search button {
@@ -80,9 +91,13 @@ header p {
   border: none;
 }
 
-.search button:hover{
-    background-color: hsla(223, 87%, 63%, 0.767);
-    cursor: pointer;
+.search #error-msg {
+  display: none;
+}
+
+.search button:hover {
+  background-color: hsla(223, 87%, 63%, 0.767);
+  cursor: pointer;
 }
 
 section img {
@@ -104,10 +119,10 @@ section img {
   padding: 0.7rem;
 }
 
-.social svg:hover{
-    background-color: #03A9F4;
-    fill: #fff;
-    cursor: pointer;
+.social svg:hover {
+  background-color: #03a9f4;
+  fill: #fff;
+  cursor: pointer;
 }
 
 .copyright {
@@ -117,6 +132,6 @@ section img {
   color: hsla(0, 0%, 59%, 0.836);
 }
 
-footer{
-    margin-bottom: 5rem;
+footer {
+  margin-bottom: 5rem;
 }

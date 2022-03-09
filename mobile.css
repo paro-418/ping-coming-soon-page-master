@@ -19,6 +19,18 @@
     width: 70%;
     padding: 1rem 3rem;
   }
+
+  .search #error-msg {
+    display: block;
+    color: red;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  form .error-msg{
+    display: none;
+  }
   
   .search button {
     width: 70%;

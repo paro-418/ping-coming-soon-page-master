@@ -5,10 +5,17 @@ submit.addEventListener("click", (e) => {
   let storeEmail = document.getElementsByTagName("input")[0].value;
 
   document.getElementById("error-msg").textContent = "";
+  document.getElementsByClassName("error-msg")[0].textContent = "";
 
   if (storeEmail == "") {
-    let parent = document.getElementById("error-msg");
-    parent.appendChild(
+    let mobile = document.getElementById("error-msg");
+    mobile.appendChild(
+      document.createTextNode(
+        "Whoops! It looks like you forgot to add your email"
+      )
+    );
+    let desktop = document.getElementsByClassName("error-msg")[0];
+    desktop.appendChild(
       document.createTextNode(
         "Whoops! It looks like you forgot to add your email"
       )
@@ -17,10 +24,17 @@ submit.addEventListener("click", (e) => {
     document.getElementsByTagName("input")[0].style.borderColor = "red";
     return;
   } else if (!ValidateEmail(storeEmail)) {
-    let parent = document.getElementById("error-msg");
-    parent.appendChild(
+    let mobile = document.getElementById("error-msg");
+    mobile.appendChild(
       document.createTextNode("Please provide a valid email address")
       );
+
+      let desktop = document.getElementsByClassName("error-msg")[0];
+    desktop.appendChild(
+      document.createTextNode(
+        "Please provide a valid email address"
+      )
+    );
       document.getElementsByTagName("input")[0].style.borderColor = "red";
       return;
     }
