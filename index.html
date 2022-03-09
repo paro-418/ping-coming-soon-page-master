@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script defer src="function.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -21,10 +22,11 @@
       <h1 class="main-header">We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
 
-      <div class="search">
+      <form id="form-data" class="search" action="#">
         <input type="email" class="roundness" placeholder="Your email address..."/>
-        <button class="roundness">Notify Me</button>
-      </div>
+        <span id="error-msg"></span>
+        <button id="submit-button" class="roundness " type="submit">Notify Me</button>
+      <form/>
     </header>
     <section>
       <img src="images/illustration-dashboard.png" alt="" />

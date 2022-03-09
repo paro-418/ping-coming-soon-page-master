@@ -59,8 +59,18 @@ header p {
   padding: 1.1rem 3rem;
 }
 
+.search input:focus{
+  outline: none;
+}
 .search input::placeholder {
   color: hsl(0, 0%, 59%);
+}
+
+.search #error-msg {
+  color: red;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
 .search button {
