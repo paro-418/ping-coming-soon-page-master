@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/desktop-first-workflow-XDoKDnPNw
 - Live Site URL: https://paro-810.github.io/ping-coming-soon-page-master/
 
 ## My process
@@ -35,11 +35,4 @@ Users should be able to:
 ### What I learned
 
   Some Functions of Java Script and Regex 
-
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - https://www.frontendmentor.io/solutions/desktop-first-workflow-XDoKDnPNw
-- Twitter - https://twitter.com/praveen2552002
 
